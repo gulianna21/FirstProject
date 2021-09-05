@@ -8,28 +8,33 @@ import java.util.Scanner;
 public class MainApp {
     public static void main(String[] args) {
 
+        ThirdProject thirdProject = new ThirdProject();
+        ThirdProject.mass();
+        ThirdProject.guessStringGame();
+        ThirdProject.guessStringGame();
+
         //FirstProject firstProject = new FirstProject();
-        SecondProject secondProject = new SecondProject();
+        //SecondProject secondProject = new SecondProject();
 
         //1
-        SecondProject.replacementValues();
+        //SecondProject.replacementValues();
 
         //2
-        SecondProject.everyThird();
+        //SecondProject.everyThird();
 
         //3
-        SecondProject.increaseLess6();
+        //SecondProject.increaseLess6();
 
         //4
-        SecondProject.minMax();
-        SecondProject.fastMinMax();
+        //SecondProject.minMax();
+        //SecondProject.fastMinMax();
 
         //5
-        SecondProject.checkBalance();
+        //SecondProject.checkBalance();
 
         //6
-        SecondProject.printMass(SecondProject.fastShiftMass(new int[]{1, 2, 3}, 1));
-        SecondProject.printMass(SecondProject.shiftMass(new int[]{3, 5, 6, 1}, -2));
+        //SecondProject.printMass(SecondProject.fastShiftMass(new int[]{1, 2, 3}, 1));
+        //SecondProject.printMass(SecondProject.shiftMass(new int[]{3, 5, 6, 1}, -2));
 
 //        //3
 //        System.out.println(FirstProject.getResult(20, 3, 4, 3));
